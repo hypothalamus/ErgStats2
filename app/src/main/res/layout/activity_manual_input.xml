@@ -10,6 +10,22 @@
         android:id="@+id/tool_man"
         layout="@layout/toolbar_manual_input" />
 
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Pick Date"
+        android:onClick="datePicker"/>
+
+    <TextView
+        android:id="@+id/showDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datePicker"
+        android:textSize="18dp" />
+
 
 </RelativeLayout>
 
